@@ -8,4 +8,3 @@ print(arr[cont_index]) #Solamete devuelve valores que cumplan la condicion
 print(arr[(arr > 5) & (arr <9)]) 
 values_changes = arr[arr > 5] = 100
 
-print(values_changes)

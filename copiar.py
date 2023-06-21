@@ -12,4 +12,4 @@ print(piece_of_arr)
 print(arr)
 
 
-print(arr_copy)
+print(arr_copy) #Genera una copia del array original, asi podemos hacer cambios de forma más simple

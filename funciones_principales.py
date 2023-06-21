@@ -21,18 +21,22 @@ print(matriz.min(1)) #Podemos definir en que eje queremos sacar el maximo, puede
 print(arr.argmin()) #Argmax nos da el indice que contenga el valor más alto
 print(matriz.argmin(1)) #Tambien podemos hacerlo por ejes
 
+
 #Funcion ptp, muestra la distribución entre el número mayor y menor
 
 print(arr.ptp())
 print(matriz.ptp(1))
 
+
 #Percentile, especifica en que percentile trabajamos
 
 print(np.percentile(arr,(50)))
 
+
 #Sort, para ordenar de menor a mayor nuestro arreglo
 
 print(arr.sort())
+
 
 #Mediana, para sacar la mediana
 
@@ -43,13 +47,16 @@ print(np.median(arr))
 
 print(np.std(arr) ** 2)
 
+
 #var, poder sacar la varianza
 
 print(np.var(arr))
 
+
 #media, poder sacar la media
 
 print(np.mean(arr))
+
 
 #Concatenar
 
